@@ -2,6 +2,27 @@ header {
   background-color: #FF3396;
 }
 
+/* Unvisited link */
+a:link {
+  color: red;
+}
+
+/* Visited link */
+a:visited {
+  color: black;
+}
+
+/* Hovered link */
+a:hover {
+  color: #8b0000;
+}
+
+/* Selected link */
+a:active {
+  color: #dc143c;
+}
+
+
 header h1 {
   margin: 0;
   color: black;
